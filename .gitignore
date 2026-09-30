@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+/config.local.json
+/data/*
+!/data/.gitkeep
+!/data/backup/
+/data/backup/*
+!/data/backup/.gitkeep
+/.state/

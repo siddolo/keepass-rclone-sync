@@ -1,0 +1,14 @@
+{
+  "language": "en",
+  "database": "passwords.kdbx",
+  "remote": "myremote:keepass/passwords.kdbx",
+  "rclone": "/usr/bin/rclone",
+  "rclone_config": null,
+  "retention_days": 90,
+  "max_backups": 100,
+  "settle_seconds": 2,
+  "command_timeout_seconds": 180,
+  "notifications": true,
+  "notification_cooldown_seconds": 3600,
+  "notify_downloads": true
+}

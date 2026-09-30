@@ -1,0 +1,416 @@
+# Italian translations for keepass-rclone-sync.
+msgid ""
+msgstr ""
+"Project-Id-Version: keepass-rclone-sync\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 13:00+0200\n"
+"PO-Revision-Date: 2026-09-30 00:00+0000\n"
+"Last-Translator: Project maintainers\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, python-format
+msgid "%(prog)s: error: %(message)s\n"
+msgstr "%(prog)s: errore: %(message)s\n"
+
+msgid "A previously synchronized copy was removed"
+msgstr "Una copia precedentemente sincronizzata è stata rimossa"
+
+msgid "Another local synchronization is already running"
+msgstr "Un'altra sincronizzazione locale è già in corso"
+
+msgid "Authentication/listing succeeded, but the remote database is missing"
+msgstr "Autenticazione/listing riusciti, ma database remoto assente"
+
+msgid "Both copies have changed since the last synchronization"
+msgstr "Entrambe le copie sono cambiate dall'ultima sincronizzazione"
+
+#, python-brace-format
+msgid "Cannot install crontab: {error}"
+msgstr "Installazione crontab fallita: {error}"
+
+#, python-brace-format
+msgid "Cannot read crontab: {error}"
+msgstr "Lettura crontab fallita: {error}"
+
+#, python-brace-format
+msgid "Cannot read {path}: {error}"
+msgstr "Impossibile leggere {path}: {error}"
+
+#, python-brace-format
+msgid "Cannot run {command}: {error}"
+msgstr "Impossibile eseguire {command}: {error}"
+
+#, python-brace-format
+msgid "Cannot save error status: {error}"
+msgstr "Impossibile salvare lo stato dell'errore: {error}"
+
+#, python-brace-format
+msgid "Cannot select {side}: the file is missing"
+msgstr "Impossibile scegliere {side}: il file è assente"
+
+#, python-brace-format
+msgid "Check complete. Errors: {count}"
+msgstr "Check concluso. Errori: {count}"
+
+msgid "Check configuration, cron, rclone and access to the remote database"
+msgstr "Verifica configurazione, cron, rclone e accesso al database remoto"
+
+#, python-brace-format
+msgid "Concurrent local save: original preserved at {path}"
+msgstr "Salvataggio locale concorrente: originale conservato in {path}"
+
+msgid "Configuration"
+msgstr "Configurazione"
+
+#, python-brace-format
+msgid "Configure the provider and credentials for the remote used by {remote}"
+msgstr "Configura il provider e le credenziali del remoto usato da {remote}"
+
+msgid ""
+"Conservative synchronization of one KDBX file using Python stdlib and rclone."
+msgstr ""
+"Sincronizzazione conservativa di un singolo KDBX; Python stdlib + rclone."
+
+msgid "Copies before manual resolution"
+msgstr "Copie prima della risoluzione manuale"
+
+#, python-brace-format
+msgid "Corrupted backup: {path}"
+msgstr "Backup danneggiato: {path}"
+
+#, python-brace-format
+msgid "Corrupted conflict copy: {path}"
+msgstr "Copia del conflitto danneggiata: {path}"
+
+#, python-brace-format
+msgid "Cron field out of range: {field}"
+msgstr "Campo cron fuori intervallo: {field}"
+
+#, python-brace-format
+msgid "Cron installed: {schedule} {command}"
+msgstr "Cron installato: {schedule} {command}"
+
+msgid "Cron is already configured: no changes"
+msgstr "Cron già configurato: nessuna modifica"
+
+msgid "Crontab changed concurrently: run setup again"
+msgstr "Crontab modificato nel frattempo: ripetere il setup"
+
+msgid "Database changed while being read"
+msgstr "Database modificato durante la lettura"
+
+msgid "Database missing from both data/ and the remote"
+msgstr "Database assente sia in data/ sia sul remoto"
+
+msgid "Database recently saved: retrying on the next run"
+msgstr "Database appena salvato: riprovo alla prossima esecuzione"
+
+msgid "Database uploaded and verified"
+msgstr "Database caricato e verificato"
+
+msgid "Databases are already synchronized"
+msgstr "Database già allineati"
+
+#, python-brace-format
+msgid "Deferred: {reason}"
+msgstr "Rinvio: {reason}"
+
+msgid ""
+"Desktop notification not sent: install notify-send (libnotify-bin package)"
+msgstr ""
+"Notifica desktop non inviata: installare notify-send (pacchetto libnotify-"
+"bin)"
+
+#, python-brace-format
+msgid "Desktop notification not sent: {error}"
+msgstr "Notifica desktop non inviata: {error}"
+
+#, python-brace-format
+msgid "Directory is not writable: {path}"
+msgstr "Directory non scrivibile: {path}"
+
+msgid ""
+"Download stopped: renameat2 is required and data/backup must be on the same "
+"filesystem as the database"
+msgstr ""
+"Download interrotto: serve renameat2 e data/backup deve essere sullo stesso "
+"filesystem del database"
+
+msgid "Duplicate job outside the managed block: remove the duplicate entry"
+msgstr "Job duplicato fuori dal blocco gestito: rimuovere la riga duplicata"
+
+msgid "Edit config.local.json using VISUAL/EDITOR"
+msgstr "Edita config.local.json con VISUAL/EDITOR"
+
+#, python-brace-format
+msgid "Editor exited with code {code}"
+msgstr "Editor terminato con codice {code}"
+
+#, python-brace-format
+msgid "Empty file or invalid KDBX header: {name}"
+msgstr "File vuoto o intestazione KDBX non valida: {name}"
+
+#, python-brace-format
+msgid "Error: {error}"
+msgstr "Errore: {error}"
+
+msgid "Explicitly select a copy; preserve both before replacing"
+msgstr "Scegli esplicitamente una copia; conserva entrambe prima di sostituire"
+
+msgid "First run: different copies, no known common version"
+msgstr "Primo avvio: copie diverse, nessuna versione comune conosciuta"
+
+#, python-brace-format
+msgid "Ignoring invalid notification state: {error}"
+msgstr "Ignoro lo stato notifiche non valido: {error}"
+
+msgid "Incompatible or corrupted state: check configuration and baseline.json"
+msgstr ""
+"Stato incompatibile o danneggiato: verificare configurazione e baseline.json"
+
+msgid "Incomplete managed cron block: missing END"
+msgstr "Blocco cron gestito incompleto: manca END"
+
+msgid "Install or update the user's cron job"
+msgstr "Installa o aggiorna il cron dell'utente"
+
+#, python-brace-format
+msgid "Invalid cron field: {field}"
+msgstr "Campo cron non valido: {field}"
+
+msgid "Invalid keys in config.local.json"
+msgstr "Chiavi non valide in config.local.json"
+
+msgid "Invalid managed cron block: nested BEGIN marker"
+msgstr "Blocco cron gestito non valido: marker BEGIN annidato"
+
+msgid "Invalid managed cron block: unmatched END marker"
+msgstr "Blocco cron gestito non valido: marker END isolato"
+
+msgid "Invalid notification state format"
+msgstr "Formato dello stato notifiche non valido"
+
+msgid "KeePass: synchronization"
+msgstr "KeePass: sincronizzazione"
+
+msgid "Last synchronization result"
+msgstr "Ultimo esito sync"
+
+msgid "Local database and directories"
+msgstr "Database locale e directory"
+
+msgid "Local database changed during synchronization"
+msgstr "Database locale cambiato durante la sincronizzazione"
+
+msgid "Local database created or removed during download"
+msgstr "Database locale creato o rimosso durante il download"
+
+msgid "Local database updated from the remote"
+msgstr "Database locale aggiornato dal remoto"
+
+msgid "Make targets: config, auth, sync, cron-setup, check, status, test."
+msgstr "Target Make: config, auth, sync, cron-setup, check, status, test."
+
+msgid "Managed job missing or using a different path: run make cron-setup"
+msgstr ""
+"Job gestito assente o diverso dal percorso corrente: eseguire make cron-setup"
+
+msgid "Management commands for configuration, rclone, and cron."
+msgstr "Comandi di gestione per configurazione, rclone e cron."
+
+msgid "Message language (default: configuration, then English)"
+msgstr "Lingua dei messaggi (predefinita: configurazione, poi inglese)"
+
+msgid "Multiple remote files have the same name: resolve remote duplicates"
+msgstr "Più file remoti con lo stesso nome: risolvere i duplicati sul remoto"
+
+#, python-brace-format
+msgid "Notification sent, but cooldown could not be saved: {error}"
+msgstr "Notifica inviata, impossibile salvare il cooldown: {error}"
+
+#, python-brace-format
+msgid "Notification state error: {error}"
+msgstr "Errore stato notifiche: {error}"
+
+#, python-brace-format
+msgid "Operation deferred: {reason}"
+msgstr "Operazione rinviata: {reason}"
+
+#, python-brace-format
+msgid "Previous crontab saved to {path}"
+msgstr "Crontab precedente salvato in {path}"
+
+msgid "Run rclone config to select the provider and configure credentials"
+msgstr ""
+"Avvia rclone config per scegliere il provider e configurare le credenziali"
+
+#, python-brace-format
+msgid "Script not found: {path}"
+msgstr "Script non trovato: {path}"
+
+msgid "Set VISUAL or EDITOR to an available editor"
+msgstr "Impostare VISUAL o EDITOR con un editor disponibile"
+
+msgid "Show the last result without network access"
+msgstr "Mostra l'ultimo esito senza rete"
+
+#, python-brace-format
+msgid "Startup error: {error}"
+msgstr "Errore di avvio: {error}"
+
+msgid ""
+"Store rclone credentials in Git-excluded .state/ (e.g. .state/rclone.conf) "
+"or outside the repository"
+msgstr ""
+"Conservare le credenziali rclone in .state/ (es. .state/rclone.conf), "
+"esclusa da Git, oppure fuori dal repository"
+
+msgid "Test desktop notifications without accessing databases"
+msgstr "Prova la notifica desktop senza accedere ai database"
+
+msgid "Test: desktop notifications are working"
+msgstr "Test: notifiche desktop funzionanti"
+
+msgid "The cron schedule must contain five fields"
+msgstr "La pianificazione cron deve contenere cinque campi"
+
+msgid "The cron/crond daemon is not running"
+msgstr "Il demone cron/crond non è in esecuzione"
+
+msgid "The remote changed during synchronization"
+msgstr "Il remoto è cambiato durante la sincronizzazione"
+
+msgid "The remote path is a directory, not a database"
+msgstr "Il percorso remoto è una directory, non un database"
+
+msgid "The repository path cannot contain newlines"
+msgstr "Il percorso del repository non può contenere newline"
+
+msgid "Unresolved conflict: see .state/conflict.json"
+msgstr "Conflitto irrisolto: consultare .state/conflict.json"
+
+msgid "Upload verification failed or concurrent update detected"
+msgstr "Verifica upload fallita o aggiornamento concorrente"
+
+#, python-brace-format
+msgid "Valid configuration: {path} (overrides config.json)"
+msgstr "Configurazione valida: {path} (override di config.json)"
+
+#, python-brace-format
+msgid "[ERROR] {name}: {error}"
+msgstr "[ERRORE] {name}: {error}"
+
+msgid "[WARNING] Desktop notifications unavailable: install libnotify-bin"
+msgstr "[AVVISO] Popup non disponibili: installare libnotify-bin"
+
+#, python-format
+msgid "argument %(argument_name)s: %(message)s"
+msgstr "argomento %(argument_name)s: %(message)s"
+
+msgid "authenticated access, download and KDBX header verified"
+msgstr "accesso autenticato, download e intestazione KDBX verificati"
+
+msgid "config.json is missing or invalid"
+msgstr "config.json mancante o non valido"
+
+msgid "database must be a .kdbx file name without directories"
+msgstr "database deve essere il nome di un file .kdbx, senza directory"
+
+msgid "expected one argument"
+msgstr "previsto un argomento"
+
+#, python-format
+msgid "invalid choice: %(value)r (choose from %(choices)s)"
+msgstr "scelta non valida: %(value)r (scegliere tra %(choices)s)"
+
+#, python-brace-format
+msgid "job {schedule}, daemon running"
+msgstr "job {schedule}, demone attivo"
+
+msgid "language must be en or it"
+msgstr "language deve essere en o it"
+
+msgid "libc does not support renameat2: local download stopped"
+msgstr "La libc non supporta renameat2: download locale interrotto"
+
+msgid "no synchronization recorded yet"
+msgstr "nessuna sincronizzazione ancora registrata"
+
+#, python-format
+msgid "not allowed with argument %s"
+msgstr "non consentito con l'argomento %s"
+
+msgid "optional arguments"
+msgstr "argomenti opzionali"
+
+msgid "options"
+msgstr "opzioni"
+
+msgid "positional arguments"
+msgstr "argomenti posizionali"
+
+msgid "rclone must be an executable name or an absolute path"
+msgstr "rclone deve essere un eseguibile o un percorso assoluto"
+
+msgid "rclone remote access"
+msgstr "Accesso remoto rclone"
+
+#, python-brace-format
+msgid "rclone unavailable or timed out: {error}"
+msgstr "rclone non disponibile o timeout: {error}"
+
+#, python-brace-format
+msgid "rclone {command} failed ({code}): {error}"
+msgstr "rclone {command} fallito ({code}): {error}"
+
+msgid "rclone_config must be null or a path"
+msgstr "rclone_config deve essere null o un percorso"
+
+msgid "remote must be the complete path to the .kdbx file"
+msgstr "remote deve essere il percorso completo del file .kdbx"
+
+msgid "show this help message and exit"
+msgstr "mostra questo messaggio di aiuto ed esce"
+
+#, python-format
+msgid "the following arguments are required: %s"
+msgstr "i seguenti argomenti sono obbligatori: %s"
+
+msgid "unknown date"
+msgstr "data sconosciuta"
+
+#, python-format
+msgid "unrecognized arguments: %s"
+msgstr "argomenti non riconosciuti: %s"
+
+msgid "usage: "
+msgstr "uso: "
+
+#, python-brace-format
+msgid "{key} must be a non-negative integer"
+msgstr "{key} deve essere un intero non negativo"
+
+#, python-brace-format
+msgid "{key} must be a positive integer"
+msgstr "{key} deve essere un intero positivo"
+
+#, python-brace-format
+msgid "{key} must be true or false"
+msgstr "{key} deve essere true o false"
+
+#, python-brace-format
+msgid "{message}. Check that KeePassXC reloads the database."
+msgstr "{message}. Verifica il ricaricamento in KeePassXC."
+
+#, python-brace-format
+msgid "{reason}. Copies preserved in {directory}"
+msgstr "{reason}. Copie conservate in {directory}"
+
+#, python-brace-format
+msgid "{reason}. Merge the preserved copy and use --resolve"
+msgstr "{reason}. Unire la copia conservata e usare --resolve"

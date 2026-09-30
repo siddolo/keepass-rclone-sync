@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the keepass-rclone-sync package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: keepass-rclone-sync\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 13:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, python-format
+msgid "%(prog)s: error: %(message)s\n"
+msgstr ""
+
+msgid "A previously synchronized copy was removed"
+msgstr ""
+
+msgid "Another local synchronization is already running"
+msgstr ""
+
+msgid "Authentication/listing succeeded, but the remote database is missing"
+msgstr ""
+
+msgid "Both copies have changed since the last synchronization"
+msgstr ""
+
+#, python-brace-format
+msgid "Cannot install crontab: {error}"
+msgstr ""
+
+#, python-brace-format
+msgid "Cannot read crontab: {error}"
+msgstr ""
+
+#, python-brace-format
+msgid "Cannot read {path}: {error}"
+msgstr ""
+
+#, python-brace-format
+msgid "Cannot run {command}: {error}"
+msgstr ""
+
+#, python-brace-format
+msgid "Cannot save error status: {error}"
+msgstr ""
+
+#, python-brace-format
+msgid "Cannot select {side}: the file is missing"
+msgstr ""
+
+#, python-brace-format
+msgid "Check complete. Errors: {count}"
+msgstr ""
+
+msgid "Check configuration, cron, rclone and access to the remote database"
+msgstr ""
+
+#, python-brace-format
+msgid "Concurrent local save: original preserved at {path}"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+#, python-brace-format
+msgid "Configure the provider and credentials for the remote used by {remote}"
+msgstr ""
+
+msgid ""
+"Conservative synchronization of one KDBX file using Python stdlib and rclone."
+msgstr ""
+
+msgid "Copies before manual resolution"
+msgstr ""
+
+#, python-brace-format
+msgid "Corrupted backup: {path}"
+msgstr ""
+
+#, python-brace-format
+msgid "Corrupted conflict copy: {path}"
+msgstr ""
+
+#, python-brace-format
+msgid "Cron field out of range: {field}"
+msgstr ""
+
+#, python-brace-format
+msgid "Cron installed: {schedule} {command}"
+msgstr ""
+
+msgid "Cron is already configured: no changes"
+msgstr ""
+
+msgid "Crontab changed concurrently: run setup again"
+msgstr ""
+
+msgid "Database changed while being read"
+msgstr ""
+
+msgid "Database missing from both data/ and the remote"
+msgstr ""
+
+msgid "Database recently saved: retrying on the next run"
+msgstr ""
+
+msgid "Database uploaded and verified"
+msgstr ""
+
+msgid "Databases are already synchronized"
+msgstr ""
+
+#, python-brace-format
+msgid "Deferred: {reason}"
+msgstr ""
+
+msgid ""
+"Desktop notification not sent: install notify-send (libnotify-bin package)"
+msgstr ""
+
+#, python-brace-format
+msgid "Desktop notification not sent: {error}"
+msgstr ""
+
+#, python-brace-format
+msgid "Directory is not writable: {path}"
+msgstr ""
+
+msgid ""
+"Download stopped: renameat2 is required and data/backup must be on the same "
+"filesystem as the database"
+msgstr ""
+
+msgid "Duplicate job outside the managed block: remove the duplicate entry"
+msgstr ""
+
+msgid "Edit config.local.json using VISUAL/EDITOR"
+msgstr ""
+
+#, python-brace-format
+msgid "Editor exited with code {code}"
+msgstr ""
+
+#, python-brace-format
+msgid "Empty file or invalid KDBX header: {name}"
+msgstr ""
+
+#, python-brace-format
+msgid "Error: {error}"
+msgstr ""
+
+msgid "Explicitly select a copy; preserve both before replacing"
+msgstr ""
+
+msgid "First run: different copies, no known common version"
+msgstr ""
+
+#, python-brace-format
+msgid "Ignoring invalid notification state: {error}"
+msgstr ""
+
+msgid "Incompatible or corrupted state: check configuration and baseline.json"
+msgstr ""
+
+msgid "Incomplete managed cron block: missing END"
+msgstr ""
+
+msgid "Install or update the user's cron job"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid cron field: {field}"
+msgstr ""
+
+msgid "Invalid keys in config.local.json"
+msgstr ""
+
+msgid "Invalid managed cron block: nested BEGIN marker"
+msgstr ""
+
+msgid "Invalid managed cron block: unmatched END marker"
+msgstr ""
+
+msgid "Invalid notification state format"
+msgstr ""
+
+msgid "KeePass: synchronization"
+msgstr ""
+
+msgid "Last synchronization result"
+msgstr ""
+
+msgid "Local database and directories"
+msgstr ""
+
+msgid "Local database changed during synchronization"
+msgstr ""
+
+msgid "Local database created or removed during download"
+msgstr ""
+
+msgid "Local database updated from the remote"
+msgstr ""
+
+msgid "Make targets: config, auth, sync, cron-setup, check, status, test."
+msgstr ""
+
+msgid "Managed job missing or using a different path: run make cron-setup"
+msgstr ""
+
+msgid "Management commands for configuration, rclone, and cron."
+msgstr ""
+
+msgid "Message language (default: configuration, then English)"
+msgstr ""
+
+msgid "Multiple remote files have the same name: resolve remote duplicates"
+msgstr ""
+
+#, python-brace-format
+msgid "Notification sent, but cooldown could not be saved: {error}"
+msgstr ""
+
+#, python-brace-format
+msgid "Notification state error: {error}"
+msgstr ""
+
+#, python-brace-format
+msgid "Operation deferred: {reason}"
+msgstr ""
+
+#, python-brace-format
+msgid "Previous crontab saved to {path}"
+msgstr ""
+
+msgid "Run rclone config to select the provider and configure credentials"
+msgstr ""
+
+#, python-brace-format
+msgid "Script not found: {path}"
+msgstr ""
+
+msgid "Set VISUAL or EDITOR to an available editor"
+msgstr ""
+
+msgid "Show the last result without network access"
+msgstr ""
+
+#, python-brace-format
+msgid "Startup error: {error}"
+msgstr ""
+
+msgid ""
+"Store rclone credentials in Git-excluded .state/ (e.g. .state/rclone.conf) "
+"or outside the repository"
+msgstr ""
+
+msgid "Test desktop notifications without accessing databases"
+msgstr ""
+
+msgid "Test: desktop notifications are working"
+msgstr ""
+
+msgid "The cron schedule must contain five fields"
+msgstr ""
+
+msgid "The cron/crond daemon is not running"
+msgstr ""
+
+msgid "The remote changed during synchronization"
+msgstr ""
+
+msgid "The remote path is a directory, not a database"
+msgstr ""
+
+msgid "The repository path cannot contain newlines"
+msgstr ""
+
+msgid "Unresolved conflict: see .state/conflict.json"
+msgstr ""
+
+msgid "Upload verification failed or concurrent update detected"
+msgstr ""
+
+#, python-brace-format
+msgid "Valid configuration: {path} (overrides config.json)"
+msgstr ""
+
+#, python-brace-format
+msgid "[ERROR] {name}: {error}"
+msgstr ""
+
+msgid "[WARNING] Desktop notifications unavailable: install libnotify-bin"
+msgstr ""
+
+#, python-format
+msgid "argument %(argument_name)s: %(message)s"
+msgstr ""
+
+msgid "authenticated access, download and KDBX header verified"
+msgstr ""
+
+msgid "config.json is missing or invalid"
+msgstr ""
+
+msgid "database must be a .kdbx file name without directories"
+msgstr ""
+
+msgid "expected one argument"
+msgstr ""
+
+#, python-format
+msgid "invalid choice: %(value)r (choose from %(choices)s)"
+msgstr ""
+
+#, python-brace-format
+msgid "job {schedule}, daemon running"
+msgstr ""
+
+msgid "language must be en or it"
+msgstr ""
+
+msgid "libc does not support renameat2: local download stopped"
+msgstr ""
+
+msgid "no synchronization recorded yet"
+msgstr ""
+
+#, python-format
+msgid "not allowed with argument %s"
+msgstr ""
+
+msgid "optional arguments"
+msgstr ""
+
+msgid "options"
+msgstr ""
+
+msgid "positional arguments"
+msgstr ""
+
+msgid "rclone must be an executable name or an absolute path"
+msgstr ""
+
+msgid "rclone remote access"
+msgstr ""
+
+#, python-brace-format
+msgid "rclone unavailable or timed out: {error}"
+msgstr ""
+
+#, python-brace-format
+msgid "rclone {command} failed ({code}): {error}"
+msgstr ""
+
+msgid "rclone_config must be null or a path"
+msgstr ""
+
+msgid "remote must be the complete path to the .kdbx file"
+msgstr ""
+
+msgid "show this help message and exit"
+msgstr ""
+
+#, python-format
+msgid "the following arguments are required: %s"
+msgstr ""
+
+msgid "unknown date"
+msgstr ""
+
+#, python-format
+msgid "unrecognized arguments: %s"
+msgstr ""
+
+msgid "usage: "
+msgstr ""
+
+#, python-brace-format
+msgid "{key} must be a non-negative integer"
+msgstr ""
+
+#, python-brace-format
+msgid "{key} must be a positive integer"
+msgstr ""
+
+#, python-brace-format
+msgid "{key} must be true or false"
+msgstr ""
+
+#, python-brace-format
+msgid "{message}. Check that KeePassXC reloads the database."
+msgstr ""
+
+#, python-brace-format
+msgid "{reason}. Copies preserved in {directory}"
+msgstr ""
+
+#, python-brace-format
+msgid "{reason}. Merge the preserved copy and use --resolve"
+msgstr ""
